@@ -2,7 +2,7 @@ body {
   font-family: 'Courier New', Courier, monospace;
   display: flex;
   flex-flow: column wrap;
-  text-align: center;
+  align-items: center;
 }
 
 img {
@@ -46,8 +46,4 @@ img {
 .text{
   flex-wrap: wrap;
 
-}
-
-body > div{
-border: 2px solid red;
 }
